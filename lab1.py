@@ -6,6 +6,8 @@ amount of 47.28 dollars. The friends decide to split the bill evenly between the
 output a message saying "Each person needs to pay: " followed by the resulting number. 
 """
 
+
+# (*** solution ***)
 amount = 47.28
 tip = amount * 0.15
 total = amount + tip
@@ -18,9 +20,11 @@ print(f"Each person needs to pay: ${pay_friend}")
 Ask user for input two numbers and divide one by another then display the result on the screen. 
 """
 
+
+# (*** solution ***)
 one_number = input("Enter the first number:- ")
 two_number = input("Enter the second number:- ")
-if one_number.isdigit() and two_number.isdigit():
+if one_number.isdigit() or two_number.isdigit():
     num1, num2 = int(one_number), int(two_number)
     result = num1 / num2
     print(f"Result: {result}")
@@ -41,6 +45,8 @@ word7 = "far?"
 Combine them to display one sentence. 
 """
 
+
+# (*** solution ***)
 word1 = "How"
 word2 = "do"
 word3 = "you"
@@ -59,14 +65,15 @@ Replace? With ! in variable word7
 Use formatting  to change language from python to any other programming language  
 """
 
-word5 = "{}"
-word7 = "far?"
 
-new_word7 = word7.replace("?", f"!")
-print(new_word7)
+# (*** solution ***)
 word5 = "{}"
 new_word5 = word5.format("i love python")
 print(new_word5)
+
+word7 = "far?"
+new_word7 = word7.replace("?", f"!")
+print(new_word7)
 
 
 ################### q5 ##########################
@@ -74,6 +81,8 @@ print(new_word5)
 Write a Python program Ask user to input stamen and calculate the length of it . 
 """
 
+
+# (*** solution ***)
 statement = len(input("Enter a statement: "))
 print(f"The statement has ({statement}) characters.")
 
@@ -83,6 +92,8 @@ print(f"The statement has ({statement}) characters.")
 Develop calculator using python (+,-,*,/)
 """
 
+
+# (*** solution ***)
 num1 = int(input("Enter the first number:- "))
 num2 = int(input("Enter the second number:- "))
 
